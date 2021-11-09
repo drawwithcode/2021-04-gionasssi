@@ -123,7 +123,7 @@ function draw() {
   
 x1 += speed * xDir1;
 y1 += speed * yDir1;
-if (x1 >= width/2 || x1 <= 0) {xDir1 *= -1;}
+if (x1 >= width || x1 <= 0) {xDir1 *= -1;}
 if (y1 >= height || y1 <= 0) {yDir1 *= -1;}
 
 x2 += speed * xDir2;
