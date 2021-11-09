@@ -106,7 +106,7 @@ function draw() {
   push()
   imageMode(CENTER)
   translate(width/2, height/2)
-  image(bg, 0, 0, windowWidth, windowHeight)
+  image(bg, 0, 0)
   pop()
 
   // rect(x,y,10,10)
